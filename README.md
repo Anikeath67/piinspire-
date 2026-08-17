@@ -40,8 +40,8 @@ Clean Architecture – Organized and maintainable project structure
 ![Create Screen](https://github.com/Anikeath67/piinspire-/blob/7db27cc1ad4d1b1a3eadbca9516a5e7c776e15e3/Screenshot_20260817-175155_pinspire.png)
 
 ### Inbox
-![Inbox Screen](assets/images/home.png)
+![Inbox Screen](https://github.com/Anikeath67/piinspire-/blob/e7de12091149a5f380cd30086e6033e4ffbd7423/Screenshot_20260817-175158_pinspire.png)
 
 ### Profile
-![Profile Screen](assets/images/profile.png)
+![Profile Screen]()
 
