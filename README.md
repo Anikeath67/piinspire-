@@ -28,3 +28,20 @@ Flutter Staggered Grid View – Masonry Pin layout
 Pexels API – Image data
 Clean Architecture – Organized and maintainable project structure
 
+## Screenshots
+
+### Home
+![Home Screen](assets/images/home.png)
+
+### Search
+![Search Screen](assets/images/home.png)
+
+### Create
+![Create Screen](assets/images/home.png)
+
+### Inbox
+![Inbox Screen](assets/images/home.png)
+
+### Profile
+![Profile Screen](assets/images/profile.png)
+
