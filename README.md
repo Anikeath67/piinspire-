@@ -31,7 +31,7 @@ Clean Architecture – Organized and maintainable project structure
 ## Screenshots
 
 ### Home
-![Home Screen](assets/images/home.png)
+![Home Screen](https://github.com/Anikeath67/piinspire-/blob/93f10349aa309e771173d72dcaf80091cc20f8ec/Screenshot_20260817-175149_pinspire.png)
 
 ### Search
 ![Search Screen](assets/images/home.png)
