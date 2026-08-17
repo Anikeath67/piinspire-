@@ -33,7 +33,7 @@ Pinspire is a Pinterest-inspired mobile application built with Flutter. The proj
 
 ### 🏠 Home
 
-<img src="https://github.com/Anikeath67/piinspire-/blob/93f10349aa309e771173d72dcaf80091cc20f8ec/Screenshot_20260817-175149_pinspire.png" width="300">
+<img src="https://github.com/Anikeath67/piinspire-/blob/93f10349aa309e771173d72dcaf80091cc20f8ec/Screenshot_20260817-175149_pinspie.png" width="300">
 
 ### 🔍 Search
 
