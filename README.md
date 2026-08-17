@@ -1,47 +1,133 @@
+# 📌 Pinspire — Pexels-powered Pinterest-style Flutter App
 
-# Pinspire — Pexels-powered Pinterest-style Flutter app
+Pinspire is a Pinterest-inspired mobile application built with Flutter. The project focuses on recreating a modern visual discovery experience with a clean, responsive UI, smooth animations, image-based content discovery, saving Pins, search, profile management, and notifications.
 
-Pinspire is a Pinterest-inspired mobile application built with Flutter. The project focuses on recreating the modern Pinterest experience with a clean, responsive UI, smooth animations, image-based content discovery, saving Pins, search, profile management, and notifications.
+## ✨ Features
 
-✨ Features
-🏠 Home Feed – Pinterest-style masonry Pin layout
-🔍 Search – Search Pins by keywords
-📌 Pin Details – View individual Pins
-❤️ Save Pins – Save and manage Pins
-👤 Profile – Profile information and saved Pins
-📥 Inbox – Messages and activity updates
-➕ Create – Create new Pins
-🌐 Pexels API – Fetch free image content dynamically
-⚡ Cached Images – Faster image loading
-✨ Shimmer Loading – Smooth loading experience
-🎨 Pinterest-inspired UI – Modern cards, rounded corners and animations
-📱 Android optimized – Designed for mobile screens
+* 🏠 **Home Feed** — Pinterest-style masonry Pin layout
+* 🔍 **Search** — Search Pins by keywords
+* 📌 **Pin Details** — View individual Pins
+* ❤️ **Save Pins** — Save and manage Pins
+* 👤 **Profile** — Profile information and saved Pins
+* 📥 **Inbox** — Messages and activity updates
+* ➕ **Create** — Create new Pins
+* 🌐 **Pexels API** — Fetch free image content dynamically
+* 🖼️ **Cached Images** — Faster image loading
+* ✨ **Shimmer Loading** — Smooth loading experience
+* 🎨 **Pinterest-inspired UI** — Modern cards, rounded corners and animations
+* 📱 **Android Optimized** — Designed for mobile screens
 
-🛠️ Tech Stack
-Flutter / Dart
-Riverpod – State management
-GoRouter – Navigation
-Dio – API/networking
-Cached Network Image – Image caching
-Shimmer – Loading effects
-Flutter Staggered Grid View – Masonry Pin layout
-Pexels API – Image data
-Clean Architecture – Organized and maintainable project structure
+## 🛠️ Tech Stack
 
-## Screenshots
+* **Flutter / Dart** — Mobile application development
+* **Riverpod** — State management
+* **GoRouter** — Navigation
+* **Dio** — API / networking
+* **Cached Network Image** — Image caching
+* **Shimmer** — Loading effects
+* **Flutter Staggered Grid View** — Masonry Pin layout
+* **Pexels API** — Image data
+* **Clean Architecture** — Organized and maintainable project structure
 
-### Home
-![Home Screen](https://github.com/Anikeath67/piinspire-/blob/93f10349aa309e771173d72dcaf80091cc20f8ec/Screenshot_20260817-175149_pinspire.png)
+## 📱 Screenshots
 
-### Search
-![Search Screen](https://github.com/Anikeath67/piinspire-/blob/d788437b4779259dacd7aacf0c797983e5b087ad/Screenshot_20260817-175153_pinspire.png)
+### 🏠 Home
 
-### Create
-![Create Screen](https://github.com/Anikeath67/piinspire-/blob/7db27cc1ad4d1b1a3eadbca9516a5e7c776e15e3/Screenshot_20260817-175155_pinspire.png)
+<img src="https://github.com/Anikeath67/piinspire-/blob/93f10349aa309e771173d72dcaf80091cc20f8ec/Screenshot_20260817-175149_pinspire.png" width="300">
 
-### Inbox
-![Inbox Screen](https://github.com/Anikeath67/piinspire-/blob/e7de12091149a5f380cd30086e6033e4ffbd7423/Screenshot_20260817-175158_pinspire.png)
+### 🔍 Search
 
-### Profile
-![Profile Screen](https://github.com/Anikeath67/piinspire-/blob/fc3c6777d5d1cc8612b90ac0bd58cda705e4c4fd/Screenshot_20260817-175201_pinspire.png)
+<img src="https://github.com/Anikeath67/piinspire-/blob/d788437b4779259dacd7aacf0c797983e5b087ad/Screenshot_20260817-175153_pinspire.png" width="300">
 
+
+### ❤️ Create
+
+<img src="https://github.com/Anikeath67/piinspire-/blob/7db27cc1ad4d1b1a3eadbca9516a5e7c776e15e3/Screenshot_20260817-175155_pinspire.png" width="300">
+
+### 👤 Profile
+
+<img src="https://github.com/Anikeath67/piinspire-/blob/fc3c6777d5d1cc8612b90ac0bd58cda705e4c4fd/Screenshot_20260817-175201_pinspire.png" width="300">
+
+### 📥 Inbox
+
+<img src="https://github.com/Anikeath67/piinspire-/blob/e7de12091149a5f380cd30086e6033e4ffbd7423/Screenshot_20260817-175158_pinspire.png" width="300">
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+* Flutter SDK
+* Dart SDK
+* Android Studio or VS Code
+* Android Emulator or physical Android device
+
+Check your Flutter installation:
+
+```bash
+flutter doctor
+```
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Anikeath67/piinspire-.git
+```
+
+Open the project:
+
+```bash
+cd piinspire-
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## 🎯 Project Objective
+
+The objective of Pinspire is to build a modern Pinterest-inspired visual discovery application using Flutter while applying modern mobile development practices.
+
+The project demonstrates:
+
+* Modern Flutter UI/UX
+* State management with Riverpod
+* REST API integration
+* Image caching
+* Masonry layouts
+* Smooth loading animations
+* Modular project architecture
+* Responsive mobile design
+
+## 🔮 Future Improvements
+
+* 🔐 User authentication
+* 📁 Create and manage custom boards
+* 📤 Upload personal Pins
+* 💬 Comments and reactions
+* 👥 Follow users
+* 💬 Real-time messaging
+* 🔔 Push notifications
+* ☁️ Cloud storage
+* ❤️ Likes and interactions
+
+## 👨‍💻 Developer
+
+**Anikeath Nikhil Ekka**
+
+M.C.A. — Computer Applications
+
+---
+
+⭐ If you like this project, consider giving it a star!
