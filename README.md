@@ -33,24 +33,24 @@ Pinspire is a Pinterest-inspired mobile application built with Flutter. The proj
 
 ### 🏠 Home
 
-<img src="https://github.com/Anikeath67/piinspire-/blob/93f10349aa309e771173d72dcaf80091cc20f8ec/Screenshot_20260817-175149_pinspie.png" width="300">
+<img src="https://github.com/Anikeath67/piinspire-/blob/a5000ff4c9af2f0743f8e0ac53c1c552156f2ae9/Screenshot_20260817-175149_pinspire.png" width="200">
 
 ### 🔍 Search
 
-<img src="https://github.com/Anikeath67/piinspire-/blob/d788437b4779259dacd7aacf0c797983e5b087ad/Screenshot_20260817-175153_pinspire.png" width="300">
+<img src="https://github.com/Anikeath67/piinspire-/blob/d788437b4779259dacd7aacf0c797983e5b087ad/Screenshot_20260817-175153_pinspire.png" width="200">
 
 
 ### ❤️ Create
 
-<img src="https://github.com/Anikeath67/piinspire-/blob/7db27cc1ad4d1b1a3eadbca9516a5e7c776e15e3/Screenshot_20260817-175155_pinspire.png" width="300">
+<img src="https://github.com/Anikeath67/piinspire-/blob/7db27cc1ad4d1b1a3eadbca9516a5e7c776e15e3/Screenshot_20260817-175155_pinspire.png" width="200">
 
 ### 👤 Profile
 
-<img src="https://github.com/Anikeath67/piinspire-/blob/fc3c6777d5d1cc8612b90ac0bd58cda705e4c4fd/Screenshot_20260817-175201_pinspire.png" width="300">
+<img src="https://github.com/Anikeath67/piinspire-/blob/fc3c6777d5d1cc8612b90ac0bd58cda705e4c4fd/Screenshot_20260817-175201_pinspire.png" width="200">
 
 ### 📥 Inbox
 
-<img src="https://github.com/Anikeath67/piinspire-/blob/e7de12091149a5f380cd30086e6033e4ffbd7423/Screenshot_20260817-175158_pinspire.png" width="300">
+<img src="https://github.com/Anikeath67/piinspire-/blob/e7de12091149a5f380cd30086e6033e4ffbd7423/Screenshot_20260817-175158_pinspire.png" width="200">
 
 ## 🚀 Getting Started
 
