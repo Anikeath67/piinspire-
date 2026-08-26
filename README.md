@@ -1,88 +1,131 @@
-# Pinspire — Pexels-powered Pinterest-style Flutter app
+# 📌 Pinspire — Pexels-powered Pinterest-style Flutter App
 
-Pinspire is a Pinterest-inspired mobile application built with Flutter. The project focuses on recreating the modern Pinterest experience with a clean, responsive UI, smooth animations, image-based content discovery, saving Pins, search, profile management, and notifications.
+Pinspire is a Pinterest-inspired mobile application built with Flutter. The project focuses on recreating a modern visual discovery experience with a clean, responsive UI, smooth animations, image-based content discovery, saving Pins, search, profile management, and notifications.
 
-## 1. Install dependencies
+## ✨ Features
+
+* 🏠 **Home Feed** — Pinterest-style masonry Pin layout
+* 🔍 **Search** — Search Pins by keywords
+* 📌 **Pin Details** — View individual Pins
+* ❤️ **Save Pins** — Save and manage Pins
+* 👤 **Profile** — Profile information and saved Pins
+* 📥 **Inbox** — Messages and activity updates
+* ➕ **Create** — Create new Pins
+* 🌐 **Pexels API** — Fetch free image content dynamically
+* 🖼️ **Cached Images** — Faster image loading
+* ✨ **Shimmer Loading** — Smooth loading experience
+* 🎨 **Pinterest-inspired UI** — Modern cards, rounded corners and animations
+* 📱 **Android Optimized** — Designed for mobile screens
+
+## 🛠️ Tech Stack
+
+* **Flutter / Dart** — Mobile application development
+* **Riverpod** — State management
+* **GoRouter** — Navigation
+* **Dio** — API / networking
+* **Cached Network Image** — Image caching
+* **Shimmer** — Loading effects
+* **Flutter Staggered Grid View** — Masonry Pin layout
+* **Pexels API** — Image data
+* **Clean Architecture** — Organized and maintainable project structure
+
+## 📱 Screenshots
+
+### 🏠 Home
+
+<img src="https://github.com/Anikeath67/piinspire-/blob/a5000ff4c9af2f0743f8e0ac53c1c552156f2ae9/Screenshot_20260817-175149_pinspire.png" width="200">
+
+### 🔍 Search
+
+<img src="https://github.com/Anikeath67/piinspire-/blob/d788437b4779259dacd7aacf0c797983e5b087ad/Screenshot_20260817-175153_pinspire.png" width="200">
+
+
+### ❤️ Create
+
+<img src="https://github.com/Anikeath67/piinspire-/blob/7db27cc1ad4d1b1a3eadbca9516a5e7c776e15e3/Screenshot_20260817-175155_pinspire.png" width="200">
+
+### 👤 Profile
+
+<img src="https://github.com/Anikeath67/piinspire-/blob/fc3c6777d5d1cc8612b90ac0bd58cda705e4c4fd/Screenshot_20260817-175201_pinspire.png" width="200">
+
+### 📥 Inbox
+
+<img src="https://github.com/Anikeath67/piinspire-/blob/e7de12091149a5f380cd30086e6033e4ffbd7423/Screenshot_20260817-175158_pinspire.png" width="200">
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+* Flutter SDK
+* Dart SDK
+* Android Studio or VS Code
+* Android Emulator or physical Android device
+
+Check your Flutter installation:
 
 ```bash
-flutter clean
+flutter doctor
+```
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Anikeath67/piinspire-.git
+```
+
+Open the project:
+
+```bash
+cd piinspire-
+```
+
+Install dependencies:
+
+```bash
 flutter pub get
 ```
 
-## 2. Add your Pexels key
-
-The app reads the key from the Dart define `PEXELS_API_KEY`.
-
-### VS Code
-
-Open `.vscode/launch.json` and replace:
-
-```text
-PASTE_YOUR_PEXELS_KEY_HERE
-```
-
-with your own Pexels API key.
-
-Then select **Pinspire - Pexels** in Run & Debug and press F5.
-
-### Terminal
+Run the application:
 
 ```bash
-flutter run --dart-define=PEXELS_API_KEY=YOUR_PEXELS_KEY
+flutter run
 ```
 
-Do not commit your real API key to a public Git repository.
+## 🎯 Project Objective
 
-## 3. What the live feed does
+The objective of Pinspire is to build a modern Pinterest-inspired visual discovery application using Flutter while applying modern mobile development practices.
 
-The Home feed does NOT use Pexels `/curated`, because curated results can be dominated by one visual topic. It requests two different discovery topics per page and combines/shuffles them:
+The project demonstrates:
 
-- fashion
-- travel
-- cars
-- food
-- nature
-- architecture
-- technology
-- art
+* Modern Flutter UI/UX
+* State management with Riverpod
+* REST API integration
+* Image caching
+* Masonry layouts
+* Smooth loading animations
+* Modular project architecture
+* Responsive mobile design
 
-Search uses the Pexels `/search` endpoint directly, so typing `car`, `fashion`, `travel`, etc. returns matching images.
+## 🔮 Future Improvements
 
-## 4. Demo mode
+* 🔐 User authentication
+* 📁 Create and manage custom boards
+* 📤 Upload personal Pins
+* 💬 Comments and reactions
+* 👥 Follow users
+* 💬 Real-time messaging
+* 🔔 Push notifications
+* ☁️ Cloud storage
+* ❤️ Likes and interactions
 
-If no API key is supplied, the app intentionally uses demo images. This proves the UI works but search cannot return live Pexels results.
+## 👨‍💻 Developer
 
-## 5. Android internet permission
+**Anikeath Nikhil Ekka**
 
-For Android debug/release builds, make sure your app has internet permission in:
+M.C.A. — Computer Applications
 
-`android/app/src/main/AndroidManifest.xml`
-
-```xml
-<uses-permission android:name="android.permission.INTERNET" />
-```
-
-## Architecture
-
-- Riverpod 3
-- GoRouter
-- Dio
-- CachedNetworkImage
-- Shimmer
-- Flutter Staggered Grid View
-- Feature-first clean structure
-- PexelsApi
-
- ## Features
-🏠 Home Feed – Pinterest-style masonry Pin layout
-🔍 Search – Search Pins by keywords
-📌 Pin Details – View individual Pins
-❤️ Save Pins – Save and manage Pins
-👤 Profile – Profile information and saved Pins
-📥 Inbox – Messages and activity updates
-➕ Create – Create new Pins
-🌐 Pexels API – Fetch free image content dynamically
-⚡ Cached Images – Faster image loading
-✨ Shimmer Loading – Smooth loading experience
-🎨 Pinterest-inspired UI – Modern cards, rounded corners and animations
-📱 Android optimized – Designed for mobile screens
+---
